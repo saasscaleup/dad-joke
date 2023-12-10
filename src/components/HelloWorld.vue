@@ -9,11 +9,11 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="purple">{{ msg }}</h1>
     <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      Welcome to <a href="https://youtube.com/@ScaleUpSaaS" target="_blank" rel="noopener">ScaleUp-Saas</a> Aws Bedrock tutorial. Please 
+      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Like</a> +
+      <a href="https://vuejs.org/" target="_blank" rel="noopener">Subscribe</a> ✅🫶
     </h3>
   </div>
 </template>
@@ -24,6 +24,10 @@ h1 {
   font-size: 2.6rem;
   position: relative;
   top: -10px;
+}
+
+.purple, a{
+  color: rgb(255, 0, 255);
 }
 
 h3 {

@@ -5,13 +5,13 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <!--img alt="Vue logo" class="logo" src="@/assets/bedrock.jpeg" width="150" height="125" /-->
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
+      <HelloWorld msg="AWS Bedrock" />
       <nav>
-        <RouterLink to="/">Dad Joke</RouterLink>
+        <RouterLink to="/bedrock-text">Bedrock Text</RouterLink>
+        <RouterLink to="/bedrock-image">Bedrock Images</RouterLink>
       </nav>
     </div>
   </header>
@@ -81,4 +81,8 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
+.purple, a{
+  color: rgb(255, 0, 255);
+}
+
 </style>
